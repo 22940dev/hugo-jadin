@@ -2,7 +2,3 @@ baseURL: https://jadin.me/
 languageCode: en-us
 title: Taylor Jadin
 theme: casper3
-markup:
-  markup.goldmark:
-    :markup.goldmark.renderer:
-      unsafe = true

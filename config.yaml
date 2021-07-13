@@ -1,0 +1,11 @@
+baseURL: https://jadin.me/
+languageCode: en-us
+title: Taylor Jadin
+theme: PaperMod
+Permalinks:
+  post: '/:slug'
+  page: '/:slug'
+params:
+    homeInfoParams:
+        Content1: I am a Learning Technologies Specialist at St. Norbert College. This site is where I try to collect the work I do in the open, including podcasting and the ocassional blog post.
+        Content2: I [tweet](https://twitter.com), post pictures to Instagram, and occasionally write code. I also like to ramble on the Jadin Approved podcast.

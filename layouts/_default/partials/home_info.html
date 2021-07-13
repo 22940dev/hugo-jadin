@@ -1,0 +1,14 @@
+{{- with $.Site.Params.homeInfoParams }}
+<article class="first-entry home-info">
+    <div class=" terminal ">
+        <p class="terminal--header ">Last login: <span id="time"></span> on ttys000</p>
+        <p class=" terminal--input ">cat aboutMe.txt</p>
+        <p class=" terminal--output "><p>{{ .Content1 | markdownify }}</p><p>{{ .Content2 | markdownify }}</p>
+        <p class=" terminal--input "></p>
+    </div>
+    <script>
+    var d = new Date();
+    document.getElementById("time").innerHTML = d.toLocaleString();
+    </script>
+</article>
+{{- end -}}

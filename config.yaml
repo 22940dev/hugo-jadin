@@ -15,15 +15,15 @@ Permalinks:
 menu:
     main:
         - identifier: about
-          name: About
+          name: About Me
           url: /about
           weight: 10
         - identifier: all
-          name: All Posts
+          name: Posts by date
           url: /all
           weight: 20
         - identifier: tags
-          name: Tags
+          name: Posts by tag
           url: /tags
           weight: 30
         - identifier: search
@@ -32,6 +32,10 @@ menu:
           weight: 40
 
 params:
+  env: production
+  ShowShareButtons: true
+  ShowReadingTime: true
+  ShowPostNavLinks: true
   ShowCodeCopyButtons: true
   homeInfoParams:
       Content1: I am a Learning Technologies Specialist at St. Norbert College. This site is where I try to collect the work I do in the open, including podcasting and the ocassional blog post.

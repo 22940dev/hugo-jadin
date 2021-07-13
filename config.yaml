@@ -1,22 +1,5 @@
 baseURL: https://jadin.me/
-languageCode: en-us
-title: Taylor Jadin
-theme:
-  - PaperMod
-
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
-
-outputs:
-    home:
-        - HTML
-        - RSS
-        - JSON
-
-Permalinks:
-  post: '/:slug'
+publishDir: ~/public_html
 
 menu:
     main:
@@ -40,6 +23,21 @@ menu:
           url: /search
           weight: 5
 
+title: Taylor Jadin
+theme:
+  - PaperMod
+languageCode: en-us
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+Permalinks:
+  post: '/:slug'
 params:
   defaultTheme: dark
   disableThemeToggle: true

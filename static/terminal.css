@@ -1,0 +1,114 @@
+.terminal a {
+    color: #F92672
+}
+
+.terminal p {
+    margin-bottom: 15px;
+}
+
+.terminal {
+    font-family: menlo,consolas,monospace;
+    /* font-size: 1.25em; */
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    line-height: 20px;
+}
+
+.terminal>.terminal--input {
+    counter-increment: input
+}
+
+.terminal>.terminal--input:before {
+    content: "taylor@jadin.me ~ $ ";
+    color: #A6E22E
+}
+
+.terminal>.terminal--input:last-child:after {
+    -webkit-animation: blink 0.75s infinite;
+    -moz-animation: blink 0.75s infinite;
+    -o-animation: blink 0.75s infinite;
+    animation: blink 0.75s infinite;
+    margin-left: 5px;
+    width: 28px;
+    content: "|";
+    background: white
+}
+
+.terminal>.terminal--output.is-console:before {
+    margin-right: 10px;
+    content: ">"
+}
+
+.terminal>.terminal--output.is-not-defined:before {
+    content: "undefined";
+    color: rgba(255, 255, 255, 0.5)
+}
+
+@-webkit-keyframes blink {
+    from {
+        opacity: 1
+    }
+
+    to {
+        opacity: 0
+    }
+}
+
+@-moz-keyframes blink {
+    from {
+        opacity: 1
+    }
+
+    to {
+        opacity: 0
+    }
+}
+
+@-ms-keyframes blink {
+    from {
+        opacity: 1
+    }
+
+    to {
+        opacity: 0
+    }
+}
+
+@keyframes blink {
+    from {
+        opacity: 1
+    }
+
+    to {
+        opacity: 0
+    }
+}
+
+.nav-subscribe {
+    opacity: 0.8;
+    padding-right: 10px;
+}
+
+.subscribe-button {
+    margin-right: 5px;
+}
+
+.social-links {
+    display: none;
+}
+
+.post .post-content figcaption {
+font-weight: 400;
+font-style: italic;
+font-size: 16px;
+line-height: 1.3;
+color: #666665;
+outline: 0;
+z-index: 300;
+text-align: center;
+}
+
+.subscribe-form, .post-full-footer {
+    display: none;
+}

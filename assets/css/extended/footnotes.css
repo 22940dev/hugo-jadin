@@ -1,0 +1,6 @@
+a.footnote-ref, a.footnote-backref {
+    font-size: small;
+    margin: 2px;
+    border: 1px solid white;
+    box-shadow: none;
+}

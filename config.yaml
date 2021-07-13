@@ -42,6 +42,8 @@ params:
   ShowReadingTime: true
   ShowPostNavLinks: true
   ShowCodeCopyButtons: true
+  cover:
+    responsiveImages: false
   homeInfoParams:
       Content1: I am a Learning Technologies Specialist at St. Norbert College. This site is where I try to collect the work I do in the open, including podcasting and the ocassional blog post.
       Content2: I [tweet](https://twitter.com/taylorjadin), [post pictures to Instagram](https://www.instagram.com/taylor_jadin/), and [occasionally write code](https://github.com/taylorjadin). My wife and I also sometimes [stream](http://twitch.tv/jadinapproved) or [record a podcast](https://anchor.fm/taylor-jadin) under the name Jadin Approved.

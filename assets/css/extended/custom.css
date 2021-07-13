@@ -4,3 +4,7 @@ a.footnote-ref, a.footnote-backref {
     border: 1px solid white;
     box-shadow: none;
 }
+
+.main-pages {
+    font-weight: bold;
+}

@@ -20,24 +20,29 @@ Permalinks:
 
 menu:
     main:
-        - identifier: about
-          name: About Me
+        - name: About Me
           url: /about
-          weight: 10
-        - identifier: all
-          name: Posts by date
+          pre: <span class="main-pages">
+          post: </span>
+          weight: 1
+        - name: Pinboard
+          url: /pinboard
+          pre: <span class="main-pages">
+          post: </span>
+          weight: 2
+        - name: Posts by date
           url: /all
-          weight: 20
-        - identifier: tags
-          name: Posts by tag
+          weight: 3
+        - name: Posts by tag
           url: /tags
-          weight: 30
-        - identifier: search
-          name: Search
+          weight: 4
+        - name: Search
           url: /search
-          weight: 40
+          weight: 5
 
 params:
+  defaultTheme: dark
+  disableThemeToggle: true
   env: production
   ShowShareButtons: true
   ShowReadingTime: true

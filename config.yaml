@@ -1,5 +1,4 @@
 baseURL: https://jadin.me/
-publishDir: ~/public_html
 
 menu:
     main:

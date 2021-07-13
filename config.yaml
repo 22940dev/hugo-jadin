@@ -3,9 +3,14 @@ languageCode: en-us
 title: Taylor Jadin
 theme: PaperMod
 
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
 Permalinks:
   post: '/:slug'
-  page: '/:slug'
 
 menu:
     main:
@@ -13,6 +18,18 @@ menu:
           name: About
           url: /about
           weight: 10
+        - identifier: all
+          name: All Posts
+          url: /all
+          weight: 20
+        - identifier: tags
+          name: Tags
+          url: /tags
+          weight: 30
+        - identifier: search
+          name: Search
+          url: /search
+          weight: 40
 
 params:
   ShowCodeCopyButtons: true

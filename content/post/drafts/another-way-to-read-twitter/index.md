@@ -22,7 +22,12 @@ The problem here is that Twitter does not want me to use their service in this w
 
 Twitter power-users out there are probably screaming in their heads at this point "OMG Taylor just use TweetDeck." [TweetDeck](https://tweetdeck.twitter.com) is a great option for lots of people but it doesn't solve my main complaint from above; it doesn't save my reading position so I don't know what I have already read. It also doesn't get rid of "the Twitch!"
 
-{{< figure src="image.png" title="TweetDeck kinda stresses me out." >}}
+<figure>
+  <img src="image.png"  />
+  <figcaption>
+      <h4>TweetDeck kinda stresses me out.</h4>
+  </figcaption>
+</figure>
 
 ## How does shoving Twitter into an rss reader help?
 

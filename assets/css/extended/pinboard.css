@@ -1,10 +1,12 @@
 .pin-title {
     font-size: 1em;
     color: #a6e22e;
+    box-shadow: none !important;
     }
 .pin-tag {
     color: #f92672;
     font-size:0.9em;
+    box-shadow: none !important;
     }
 .pinboard-tags {
         margin: 0 auto;
@@ -12,7 +14,6 @@
         padding-bottom: 30px;
         }
 .pinboard-tags > a {
-  box-shadow: none !important;
   font-family: Helvetica Neue,sans-serif;
   text-decoration: none;
   }

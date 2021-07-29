@@ -41,7 +41,7 @@ params:
   defaultTheme: dark
   disableThemeToggle: true
   env: production
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowReadingTime: true
   ShowPostNavLinks: true
   ShowCodeCopyButtons: true

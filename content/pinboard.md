@@ -1,5 +1,6 @@
 ---
 title: Pinboard
+ShowReadingTime: False
 ---
 [RSS](https://feeds.pinboard.in/rss/u:taylorjadin/)
 

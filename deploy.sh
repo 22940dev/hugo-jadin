@@ -1,6 +1,8 @@
-if [ "$HOSTNAME" = sebadoh.reclaimhosting.com ]
-then
+host=$(head -1 deploy.config)
+ssh=$(tail -1 deploy.config)
+
+if [ "$HOSTNAME" = $host
     cd /home/jadinme/jadin.me && git pull && hugo -d ~/public_html
 else
-    ssh jadinme@jadin.me bash /home/jadinme/jadin.me/deploy.sh
+    ssh $ssh bash /home/jadinme/jadin.me/deploy.sh
 fi

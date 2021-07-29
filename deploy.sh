@@ -1,3 +1,4 @@
+#!/bin/bash
 host=$(head -1 deploy.config)
 ssh=$(tail -1 deploy.config)
 

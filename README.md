@@ -1,5 +1,5 @@
 # jadin.me
- This is the github repo I use to maintain my website at jadin.me
+My personal website, powered by [hugo](http://gohugo.io/).
 
 ## Notes
 For cloning including the theme, we need to also grab submodules:

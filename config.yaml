@@ -3,11 +3,11 @@ publishDir: ~/public_html
 
 menu:
     main:
-        - name: About Me
-          url: /about
-          pre: <span class="main-pages">
-          post: </span>
-          weight: 1
+        # - name: About Me
+        #   url: /about
+        #   pre: <span class="main-pages">
+        #   post: </span>
+        #   weight: 1
         - name: Pinboard
           url: /pinboard
           pre: <span class="main-pages">

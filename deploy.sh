@@ -1,5 +1,3 @@
-#!/bin/bash
-
 if [ "$HOSTNAME" = sebadoh.reclaimhosting.com ]; then
     cd /home/jadinme/jadin.me && git pull && hugo -d ~/public_html
 else

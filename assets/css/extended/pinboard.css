@@ -1,3 +1,13 @@
+.pinboard-tags {
+    margin: 0 auto;
+    max-width: 360px;
+    padding-bottom: 30px;
+    }
+.pinboard-tags > a {
+    font-family: Helvetica Neue,sans-serif;
+    text-decoration: none;
+    box-shadow: none !important;
+    }
 .pin-title {
     font-size: 1em;
     color: #a6e22e;
@@ -8,12 +18,3 @@
     font-size:0.9em;
     box-shadow: none !important;
     }
-.pinboard-tags {
-        margin: 0 auto;
-        max-width: 360px;
-        padding-bottom: 30px;
-        }
-.pinboard-tags > a {
-  font-family: Helvetica Neue,sans-serif;
-  text-decoration: none;
-  }

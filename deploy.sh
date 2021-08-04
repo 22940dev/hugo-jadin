@@ -1,6 +1,8 @@
 #!/bin/bash
-host=$(head -1 deploy.config)
-ssh=$(tail -1 deploy.config)
+configFile='deploy.config'
+
+host=$(head -1 $configFile)
+ssh=$(tail -1 $configFile)
 
 if [ "$HOSTNAME"  = $host ]; then
     cd /home/jadinme/jadin.me && git pull && hugo -d ~/public_html

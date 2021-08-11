@@ -1,4 +1,4 @@
-baseURL: https://jadin.me/
+baseURL: https://hugo-jadin.netlify.app
 
 menu:
     main:
@@ -22,7 +22,7 @@ menu:
           url: /search
           weight: 5
 
-title: Taylor Jadin
+title: 22940dev
 theme:
   - PaperMod
 languageCode: en-us
